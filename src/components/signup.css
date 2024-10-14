@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    /* Colors */
+    --black: #343a40;
+    --white: #f8f9fa;
+    --fireRed: #F05119;
+    /* Size */
+    --loginContHeight : 600px;
+    --loginContWeight : 900px;
+}
+.signupBody {
+    background-image: url("./img/LoginBody.svg");
+    width: 100vw;
+    height: 100vh;
+}
+.signupContainer {
+    position: relative;
+    display: flex;
+    top: calc(50% - var(--loginContHeight) / 2);
+    width: var(--loginContWeight);
+    height: var(--loginContHeight);
+    background: var(--white);
+    margin: auto;
+}
+.signupImg {
+    background-image: url("../img/character-set.png");
+    width: calc(var(--loginContWeight) / 2);
+    height: inherit;
+}
+.signupContent {
+    background-color: var(--white);
+    width: calc(var(--loginContWeight) / 2);
+    height: inherit;
+    font-family: "Roboto", sans-serif;
+    padding-left: 55px;
+}
+.signupContent > img {
+    position: relative;
+    left: calc(100% - (33px + 20px));
+    top: 20px;
+}
+
+.signupContent > h1 {
+    margin-top: 30px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 30px;
+    color: var(--black);
+}
+.signupContent span {
+    font-weight: 400;
+}
+.signupContent > h3 {
+    margin-top: 15px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 16px;
+    color: var(--black);
+}
+.inputbox:nth-of-type(1) {
+    margin-top: 40px;
+}
+
+.inputbox {
+    display: flex;
+    background: #f8f9fa;
+    width: 342px;
+    height: 55px;
+    margin-top: 15px;
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+.inputbox > div {
+    width: 10px;
+    height: inherit;
+    background: var(--fireRed);
+    border-radius: 2px 0 0 2px ;
+}
+.inputbox > input {
+    width: inherit;
+    height: inherit;
+    border: 0px solid;
+    padding: 15px;
+    font-size: 16px;
+    color: var(--black);
+    border-radius: 0 2px 2px 0;
+
+}
+.inputbox > input:focus{
+    outline: none;
+}
+.inputbox > input::placeholder{
+    color: rgb(52, 58, 64,.4);
+}
+
+.rememberMe{
+    margin-top: 25px;
+}
+
+.rememberMe > input {
+    height: 15px;
+    width: 15px;
+}   
+
+.rememberMe > label {
+    position: relative;
+    top: -2px;
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--black);
+}
+.authBtn {
+    margin-top: 30px;
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.authBtn > button{
+    width: 150px;
+    height: 50px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--white);
+    background-color: #F05119;
+    border-radius: 5px;
+    border: 2px solid var(--fireRed);
+}
+
+.authBtn > button:hover {
+    color: var(--fireRed);
+    background-color: var(--white);
+}
+
+
+
