@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.7568ea47.css",
-    "main.js": "/static/js/main.8d1103a8.js",
+    "main.js": "/static/js/main.841e6ff9.js",
     "static/media/large-group-games.jpg": "/static/media/large-group-games.a172364a7dbb8b20c3e0.jpg",
     "static/media/pattern.png": "/static/media/pattern.1427a4c249ad870c94aa.png",
     "static/media/character-set.png": "/static/media/character-set.5b1ae2f2571e7deba113.png",
     "static/media/LoginBody.svg": "/static/media/LoginBody.c97769d8e964c5a1931b.svg",
     "index.html": "/index.html",
     "main.7568ea47.css.map": "/static/css/main.7568ea47.css.map",
-    "main.8d1103a8.js.map": "/static/js/main.8d1103a8.js.map"
+    "main.841e6ff9.js.map": "/static/js/main.841e6ff9.js.map"
   },
   "entrypoints": [
     "static/css/main.7568ea47.css",
-    "static/js/main.8d1103a8.js"
+    "static/js/main.841e6ff9.js"
   ]
 }
