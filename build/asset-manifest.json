@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/firechat/static/css/main.00f9fd43.css",
-    "main.js": "/firechat/static/js/main.378ef890.js",
-    "static/media/large-group-games.jpg": "/firechat/static/media/large-group-games.a172364a7dbb8b20c3e0.jpg",
-    "static/media/pattern.png": "/firechat/static/media/pattern.1427a4c249ad870c94aa.png",
-    "static/media/character-set.png": "/firechat/static/media/character-set.5b1ae2f2571e7deba113.png",
-    "static/media/LoginBody.svg": "/firechat/static/media/LoginBody.c97769d8e964c5a1931b.svg",
-    "index.html": "/firechat/index.html",
-    "main.00f9fd43.css.map": "/firechat/static/css/main.00f9fd43.css.map",
-    "main.378ef890.js.map": "/firechat/static/js/main.378ef890.js.map"
+    "main.css": "/v2/static/css/main.f2b7e954.css",
+    "main.js": "/v2/static/js/main.eceb30a7.js",
+    "static/media/large-group-games.jpg": "/v2/static/media/large-group-games.a172364a7dbb8b20c3e0.jpg",
+    "static/media/pattern.png": "/v2/static/media/pattern.1427a4c249ad870c94aa.png",
+    "static/media/character-set.png": "/v2/static/media/character-set.5b1ae2f2571e7deba113.png",
+    "static/media/LoginBody.svg": "/v2/static/media/LoginBody.c97769d8e964c5a1931b.svg",
+    "index.html": "/v2/index.html",
+    "main.f2b7e954.css.map": "/v2/static/css/main.f2b7e954.css.map",
+    "main.eceb30a7.js.map": "/v2/static/js/main.eceb30a7.js.map"
   },
   "entrypoints": [
-    "static/css/main.00f9fd43.css",
-    "static/js/main.378ef890.js"
+    "static/css/main.f2b7e954.css",
+    "static/js/main.eceb30a7.js"
   ]
 }
