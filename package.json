@@ -1,6 +1,5 @@
 {
   "homepage": "/v2",
-  "proxy": "http://localhost:3001",
   "name": "react-chat",
   "version": "0.1.0",
   "private": true,

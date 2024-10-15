@@ -7,15 +7,15 @@ import SignUp from "./components/SignUp";
 
 const MyRouter = createBrowserRouter([
     {
-        path: "/v2",
+        path: "/",
         element: <App />,
     },
     {
-        path: "/v2/login",
+        path: "/login",
         element: <LogIn />
     },
     {
-        path: "/v2/signup",
+        path: "/signup",
         element: <SignUp/>
     }
 ]);
